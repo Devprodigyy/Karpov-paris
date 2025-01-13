@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Karpov-paris</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Rubik+Vinyl&family=Unbounded:wght@200..900&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+  <!-- remix icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- custom css -->
   <link rel="stylesheet" href="./src/style.css">
 </head>
-<body>
-  <main class="h-screen w-full bg-red-200">
+<body class="">
+  <main class="w-full relative bg-[#F2F2F2] overflow-x-hidden">
 
-  </main>
-  
+    <nav class="absolute top-0 z-10 h-[10vh] w-full flex items-center justify-around">
+      <div class="h-full w-full flex items-center justify-around  text-black">
+        <i class="flex md:hidden text-[5vw] ri-menu-2-line"></i>
+        <i class="flex md:hidden text-[5vw] ri-vip-crown-line"></i>
+        <i class="flex md:hidden text-[5vw] ri-handbag-line"></i>
+
+        <div class="hidden md:flex gap-10 ">
+          <h6>Buutique</h6>
+          <h6>About</h6>
+        </div>
+        <div class="hidden md:flex gap-10">
+          <i class=" hidden md:flex text-[2vw] ri-vip-crown-line"></i>
+        </div>
+        <div class="hidden md:flex gap-10">
+          <h6>Log In</h6>
+          <h6>Cart <span>0</span></h6>
+        </div>
+      </div>
+    </nav>
+    <!-- hero sec -->
+    <section class="min-h-screen w-full flex items-center justify-center relative ">
+      <img class="w-[60vw] h-[40vh] object-cover object-center md:w-[40vh] md:h-[50vh]" src="./public/img4.jpg" alt="">
+      <h1 class="absolute text-[15vw] transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 md:text-[4vw]">KARPOV
+      </h1>
+      <h6 class="absolute bottom-20 w-full text-center">paris</h6>
+    </section>
+</main>
+
 </body>
+
 </html>
